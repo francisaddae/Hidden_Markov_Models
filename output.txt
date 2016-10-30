@@ -1,0 +1,15 @@
+=========== Homework 8 ==========
+load_corpus()
+57340
+[('It', 'PRON'), ('made', 'VERB'), ('him', 'PRON'), ('human', 'NOUN'), ('.', '.')]
+[('The', 'DET'), ('prospects', 'NOUN'), ('look', 'VERB'), ('great', 'ADJ'), ('.', '.')]
+Tagger() initialization
+Tagger Corpus
+most_probable_tags()
+['DET', 'NOUN', 'VERB', '.']
+['DET', 'ADJ', 'NOUN', 'VERB']
+viterbi_tags()
+most_probable_tags(s1):  ['PRON', 'VERB', 'VERB', 'PRT', 'NOUN']
+viterbi_tags(s1):  ['PRON', 'VERB', 'VERB', 'PRT', 'VERB']
+most_probable_tags(s2):  ['PRON', 'VERB', 'DET', 'VERB']
+viterbi_tags(s2):  ['PRON', 'VERB', 'DET', 'NOUN']
